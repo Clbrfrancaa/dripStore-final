@@ -1,4 +1,6 @@
 import styles from '../components/Header.module.css';
+import Logo from './Logo'
+import BuyBox from './BuyBox'
 
 
 function Header() {
@@ -7,7 +9,8 @@ function Header() {
         <div className={styles.headerGeral}>
             <article className={styles.menuPrincipal}>
                 <div className={styles.logo}>
-                    <img src="../public/logo.png" alt="logo digital store" />
+                    {/* <img src="../public/logo.png" alt="logo digital store" /> */}
+                    <Logo />
                 </div>
 
                 <div className={styles.busca}>
@@ -24,7 +27,8 @@ function Header() {
 
                 <div id="carrinho">
                     <button style={{ background: 'none' }} type="button" className="btn position-relative">
-                        <img src="../public/Buy.png" alt="carrinho de compra" />
+                        {/* <img src="../public/Buy.svg" alt="carrinho de compra" /> */}
+                        <BuyBox />
                         <span className="position-absolute top-0 start-75 translate-middle badge rounded-pill" style={{ backgroundColor: '#C92071' }}>
                             2
                             <span className="visually-hidden">Quantidade comprada</span>
