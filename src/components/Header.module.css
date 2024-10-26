@@ -37,7 +37,7 @@
 }
 
 .caixaPesquisa{
-    background: none;
+    background:none;
     border: 0;
     outline: 0;
 }
@@ -63,12 +63,18 @@
 
 }
 
+
 .listas li a{
     text-decoration: none;
     color: #515151;
-    
-    
 }
+
+.listas li a:hover{
+    text-decoration: none;
+    color: #C92071;
+    font-weight: bold;
+}
+
 
 .listas li a.menuAtivo  {
     color: #C92071;

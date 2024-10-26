@@ -14,7 +14,7 @@ function Header() {
                 </div>
 
                 <div className={styles.busca}>
-                    <input className={styles.caixaPesquisa} type="text" placeholder="Pesquisar produto..." />
+                    <input className={styles.caixaPesquisa}  size= "55" type="text" placeholder="Pesquisar produto..." />
                     <a className={styles.lupa} href="#">
                         <img src="../public/Search.png" alt="lupa" />
                     </a>
