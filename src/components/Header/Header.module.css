@@ -106,4 +106,10 @@
     box-shadow: none;
 }
 
+li .selected {
+    color: #C92071;
+    font-weight: bold;
+    border-bottom: solid 2px #C92071;
 
+
+}

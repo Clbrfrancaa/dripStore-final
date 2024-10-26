@@ -1,6 +1,7 @@
-import styles from '../components/Header.module.css';
-import Logo from './Logo'
-import BuyBox from './BuyBox'
+import styles from './Header.module.css';
+import Logo from '../Logo/Logo'
+import BuyBox from '../BuyBox/BuyBox'
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -10,13 +11,15 @@ function Header() {
             <article className={styles.menuPrincipal}>
                 <div className={styles.logo}>
                     {/* <img src="../public/logo.png" alt="logo digital store" /> */}
-                    <Logo />
+                    <Link to='/'>
+                        <Logo />
+                    </Link>
                 </div>
 
                 <div className={styles.busca}>
                     <input className={styles.caixaPesquisa}  size= "55" type="text" placeholder="Pesquisar produto..." />
                     <a className={styles.lupa} href="#">
-                        <img src="../public/Search.png" alt="lupa" />
+                        <img src="../public/Search.svg" alt="lupa" />
                     </a>
                 </div>
 
@@ -39,10 +42,10 @@ function Header() {
 
             <nav className={styles.menuNavegacao}>
                 <ul className={styles.listas}>
-                    <li><a className={styles.menuAtivo} href="#">Home</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Meus Pedidos</a></li>
+                    <li><Link to='/' className={styles.menuAtivo}>Home</Link></li>
+                    <li><Link to='/ProductListingPage'>Produtos</Link></li>
+                    <li><Link to='/ProductViewPage'>Categorias</Link></li>
+                    <li><Link to='/'>Meus Pedidos</Link></li>
                 </ul>
             </nav>
             </div>
