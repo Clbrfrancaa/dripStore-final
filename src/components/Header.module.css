@@ -48,24 +48,9 @@
 }
 
 
-
-/* .botaoEntrar{
-    padding: 10px 30px 10px 30px;
-    border: none;
-    border-radius: 8px;
-    background-color: #C92071;
-    color: white;
-    margin-left: 20px;
-} */
-
-
-
 .menuNavegacao{
-    margin-top: 50px;
-
-   
+    margin-top: 50px;  
 }
-
 
 
 .listas {
@@ -99,6 +84,7 @@
     border-radius: 8px;
     padding: 8px 35px;
     font-weight: 500;
+    
 }
 
 
@@ -107,4 +93,11 @@
     color: white;
 
 }
+
+.botaoRosa:focus,
+.botaoRosa:active {
+    outline: none;
+    box-shadow: none;
+}
+
 

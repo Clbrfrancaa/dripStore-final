@@ -25,8 +25,8 @@ function Header() {
                     <button className={`btn ${styles.botaoRosa}`} type="button">Entrar</button>
                 </div>
 
-                <div id="carrinho">
-                    <button style={{ background: 'none' }} type="button" className="btn position-relative">
+                <div className="carrinho">
+                    <button style={{ background: 'none', outline: 'none', boxShadow: 'none' }} type="button" className="btn position-relative">
                         {/* <img src="../public/Buy.svg" alt="carrinho de compra" /> */}
                         <BuyBox />
                         <span className="position-absolute top-0 start-75 translate-middle badge rounded-pill" style={{ backgroundColor: '#C92071' }}>
