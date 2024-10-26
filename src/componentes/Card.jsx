@@ -1,9 +1,10 @@
+import "./Section.css";
 function Card(props) {
-    console.log(props)
+   
     return (
         <>
-            <div className="row d-flex flex-column">
-                <div className="col cardSapatoComp3">
+            <div className="row col-3 d-flex flex-column">
+                <div className=" cardSapatoComp3">
 
                     <img src={props.image} alt="" width={'150px'} />
                 </div>
