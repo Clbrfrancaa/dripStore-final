@@ -1,7 +1,8 @@
 import "./Section.css";
 function Collections() {
   return (
-    <div className="container mt-5">
+    <> 
+    <div className="container ">
       <div className="row gap-2 d-flex flex-row">
         <div className="col  fundoCard pt-5 pb-3  rounded-2">
           <div className="row d-flex flex-row">
@@ -47,7 +48,7 @@ function Collections() {
         </div>
       </div>
       <div className="row d-flex gap-5 flex-row justify-content-center">
-          <h3 className="text-center mb-5">coleções em destaque</h3>
+          <h3 className="text-center mt-5">coleções em destaque</h3>
           <div className="col col-1">
             <div className="icone">
               <img src="icone1.png" className="icone" alt="" width={"60px"} />
@@ -87,6 +88,7 @@ function Collections() {
       
 
     </div>
+    </>
   );
 }
 

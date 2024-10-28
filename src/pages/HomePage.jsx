@@ -12,8 +12,8 @@ function HomePage(){
         <>
       <Carrosel/>
         
-
-        <Section title="Collections" link={{"text":"saiba mais2", "href":"www.google.com"}}>
+      <br /><br /><br /><br /> <br />
+        <Section title="Coleções em destaque" link={{"text":"saiba mais2", "href":"www.google.com"}}>
             <Collections/>
         </Section>
 

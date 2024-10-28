@@ -38,5 +38,5 @@ export default [
     name: "sapato nike8",
     price: 1000,
     image: "sapato3.png",
-  },
+  }
 ];

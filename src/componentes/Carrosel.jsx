@@ -1,4 +1,3 @@
-
 import "./Section.css";
 function Carrosel() {
   return (
@@ -9,15 +8,15 @@ function Carrosel() {
             <div class="carousel-item active">
               <div className="container">
                 <div className="row d-flex flex-row">
-                  <div className="col offset-1 align-self-center text-justify">
+                  <div className="col offset-1 align-self-center text-justify  d-flex flex-column justify-content-start">
                     <h6 className="text-warning text-justify">
                       Melhores ofertas personalizadas
                     </h6>
-                    <h1>queima de estoque nike</h1>
+                    <h1>Queima de estoque nike</h1>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nesciunt, quaerat.
-                    <button className="btn corBotaoRosa text-light mt-5">
-                      ver ofertas
+                    <button className="btn corBotaoRosa text-light mt-5 col-3">
+                      Ver ofertas
                     </button>
                   </div>
                   <div className="col">
@@ -29,15 +28,15 @@ function Carrosel() {
             <div class="carousel-item">
               <div className="container">
                 <div className="row d-flex flex-row">
-                  <div className="col offset-1 align-self-center text-justify">
+                  <div className="col offset-1 align-self-center text-justify d-flex flex-column justify-content-start">
                     <h6 className="text-warning">
                       Melhores ofertas personalizadas
                     </h6>
-                    <h1>queima de estoque nike</h1>
+                    <h1>Queima de estoque nike</h1>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nesciunt, quaerat.
-                    <button className="btn corBotaoRosa text-light mt-5">
-                      ver ofertas
+                    <button className="btn corBotaoRosa text-light mt-5 col-3">
+                      Ver ofertas
                     </button>
                   </div>
                   <div className="col">
@@ -49,15 +48,15 @@ function Carrosel() {
             <div class="carousel-item">
               <div className="container">
                 <div className="row d-flex flex-row ">
-                  <div className="col offset-1  align-self-center text-justify">
+                  <div className="col offset-1  align-self-center text-justify d-flex flex-column justify-content-start">
                     <h6 className="text-warning">
                       Melhores ofertas personalizadas
                     </h6>
-                    <h1>queima de estoque nike</h1>
+                    <h1>Queima de estoque nike</h1>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Nesciunt, quaerat.
-                    <button className="btn corBotaoRosa text-light mt-5">
-                      ver ofertas
+                    <button className="btn corBotaoRosa text-light mt-5  col-3">
+                      Ver ofertas
                     </button>
                   </div>
                   <div className="col">

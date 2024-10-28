@@ -6,8 +6,8 @@ function Section(props) {
    
     return (
         <>
-            <div>
-                <h1>{props.title}</h1>
+            <div className='container'>
+                <h1 >{props.title}</h1>
             
                 {props.children}
             </div>

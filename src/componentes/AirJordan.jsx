@@ -3,7 +3,8 @@ import "./Section.css";
 function AirJordan() {
   return (
     <>
-      <div className="container-fluid corDeFundoComp4">
+    <br /><br /><br /><br />
+      <div className="container-fluid corDeFundoComp4 mt-5">
           <div className="row  d-flex flex-row">
             <div className="col col-6 gradiente">
               <img src="sapato4.png" alt="" width={"500px"} />

@@ -3,10 +3,10 @@ function Card(props) {
    
     return (
         <>
-            <div className="row col-3 d-flex flex-column">
-                <div className=" cardSapatoComp3">
+            <div className="row  col-3  d-flex flex-column ">
+                <div className=" cardSapatoComp3 col-10">
 
-                    <img src={props.image} alt="" width={'150px'} />
+                    <img src={props.image} alt="" width={'150px'} className="offset-2"/>
                 </div>
                 <div className="col">
                     <p className='corFontePreço'>tenis</p>
