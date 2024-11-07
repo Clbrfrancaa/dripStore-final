@@ -1,0 +1,23 @@
+.footerGeral {
+    color: #ffffff;
+    background-color: #1f1f1f;
+    display: flex;
+    padding: 50px;
+
+}
+
+.insta{
+margin: 0 30px ;
+}
+
+.social {
+    /* display: flex;
+    gap: 30px; */
+    /* padding-top: 20px; */
+}
+
+.info {}
+
+.categorias {}
+
+.contato {}
