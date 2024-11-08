@@ -6,7 +6,7 @@ p {
 .footerGeral {
     color: #ffffff;
     background-color: #1f1f1f;
-    padding: 44px 50px 26px 50px;
+    padding: 58px 90px 26px 90px;
     top: 3290px;
 }
 
@@ -25,31 +25,38 @@ p {
     padding-top: 20px;
 }
 
-.info {}
+.secaoInfo {}
 
-.categorias {}
+.secaoCategorias {}
 
-.contato {
+.secaoContato {
     width: 233px;
+}
+
+[class^="_secao"] {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
 }
-li{
-    line-height: 38px;
+
+li {
+    line-height: 35px;
 }
 
-.endereco{
-line-height: normal;
+.endereco {
+    line-height: normal;
 }
 
 .copy {
     border-top: 1px solid #ffffff6b;
     display: flex;
     justify-content: center;
-    margin-top: 139px;
+    margin-top: 18px;
     padding-top: 26px;
 }
 
@@ -57,7 +64,11 @@ line-height: normal;
     width: 307px;
 }
 
-.cabeçalho {
+.texto {
+    margin: 30px 0;
+}
+
+.cabecalho {
     font-size: 18px;
     font-weight: 500;
 

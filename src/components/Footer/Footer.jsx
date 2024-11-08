@@ -11,7 +11,7 @@ function Footer(props) {
                     <div className={styles.lorem}>
                         <Logo color="#ffffff" />
 
-                        <p > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p className={styles.texto} > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 
                         <div className={styles.social}>
                             <img src="src/assets/facelogo.svg" alt="" />
@@ -21,10 +21,11 @@ function Footer(props) {
                     </div>
 
 
-                    <div className={styles.info}>
-                        <span className={styles.cabeçalho} >Informação</span>
+                    <div className={styles.secaoInfo}>
+                        <span className={styles.cabecalho} >Informação</span>
                         <ul>
 
+                            <li>Sobre Drip Store</li>
                             <li>Segurança</li>
                             <li>wishlist</li>
                             <li>Blog</li>
@@ -33,8 +34,8 @@ function Footer(props) {
                         </ul>
                     </div>
 
-                    <div className={styles.categorias}>
-                        <span className={styles.cabeçalho} >Categorias</span>
+                    <div className={styles.secaoCategorias}>
+                        <span className={styles.cabecalho} >Categorias</span>
                         <ul>
 
                             <li>Camisetas</li>
@@ -45,12 +46,12 @@ function Footer(props) {
                         </ul>
                     </div>
 
-                    <div className={styles.contato}>
-                        <span className={styles.cabeçalho}>Contato</span>
+                    <div className={styles.secaoContato}>
+                        <span className={styles.cabecalho}>Contato</span>
                         <ul>
 
-                            <li className = {styles.endereco} >Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
-                            <li>85 3051-3411</li>
+                            <li className={styles.endereco} >Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</li>
+                            <li>(85) 3051-3411</li>
                         </ul>
                     </div>
                 </div>
