@@ -1,23 +1,64 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .footerGeral {
     color: #ffffff;
     background-color: #1f1f1f;
-    display: flex;
-    padding: 50px;
-
+    padding: 44px 50px 26px 50px;
+    top: 3290px;
 }
 
-.insta{
-margin: 0 30px ;
+.container {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.insta {
+    margin: 0 30px;
 }
 
 .social {
-    /* display: flex;
-    gap: 30px; */
-    /* padding-top: 20px; */
+    display: flex;
+    padding-top: 20px;
 }
 
 .info {}
 
 .categorias {}
 
-.contato {}
+.contato {
+    width: 233px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    line-height: 38px;
+}
+
+.endereco{
+line-height: normal;
+}
+
+.copy {
+    border-top: 1px solid #ffffff6b;
+    display: flex;
+    justify-content: center;
+    margin-top: 139px;
+    padding-top: 26px;
+}
+
+.lorem {
+    width: 307px;
+}
+
+.cabeçalho {
+    font-size: 18px;
+    font-weight: 500;
+
+}
