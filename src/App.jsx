@@ -7,8 +7,12 @@ function App() {
   
   return (
     <>
-      <HomePage/>
-      <AppRoutes />
+      <AppRoutes/>
+      
+
+
+      
+      
     </>
   )
 }

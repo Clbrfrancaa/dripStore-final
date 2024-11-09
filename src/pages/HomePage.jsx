@@ -4,12 +4,14 @@ import Carrosel from '../componentes/Carrosel';
 import Section2 from '../componentes/Section2';
 import ProductList from "../componentes/ProductList";
 import AirJordan from "../componentes/AirJordan";
+import Header from "../components/Header/Header";
 
 
 
 function HomePage(){
     return(
         <>
+        <Header/>
       <Carrosel/>
         
       <br /><br /><br /><br /> <br />
