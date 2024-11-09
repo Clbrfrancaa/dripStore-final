@@ -3,10 +3,11 @@ import Header from '../../components/Header/Header'
 
 function ProductListingPage(){
     return(
-        <>
-            <Header />
-           <FilterGroup/>
-        </>
+       <>
+           <Header />
+           <FilterGroup />
+
+       </>
     )
 }
 
