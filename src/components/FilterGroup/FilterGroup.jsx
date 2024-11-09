@@ -56,6 +56,7 @@ function FilterGroup() {
         <>
             <div className="container">
                 <div className="row d-flex flex-row col-12">
+                    <hr />
                     <div className="col col-2 mt-5">
                         <h1>Filtrar por</h1>
                         <hr />
