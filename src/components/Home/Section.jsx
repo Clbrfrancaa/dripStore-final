@@ -1,6 +1,6 @@
 import './Section.css'
 import Card from './Card'
-import products from '../mock/products'
+import products from '../../mock/products'
 
 function Section(props) {
    

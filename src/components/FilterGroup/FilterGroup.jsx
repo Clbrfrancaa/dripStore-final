@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProductList from "../../componentes/ProductList";
-import Card from "../../componentes/Card";
+import ProductList from "../../components/Home/ProductList";
+import Card from "../../components/Home/Card";
 
 
 function FilterGroup() {
