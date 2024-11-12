@@ -54,7 +54,7 @@ function FilterGroup() {
 
     return (
         <>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row d-flex flex-row col-12">
                     <hr />
                     <div className="col col-2 mt-5">
@@ -114,7 +114,7 @@ function FilterGroup() {
                         </article>
 
                     </div>
-                    <div className="col col-10 mt-5">
+                    <div className="col col-10  mt-5 mb-5">
                         <ProductList />
 
                     </div>
