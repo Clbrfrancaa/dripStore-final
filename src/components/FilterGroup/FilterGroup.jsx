@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import ProductList from "../../components/Home/ProductList";
-import Card from "../../components/Home/Card";
+
+import ProductList2 from "../Home/ProductList2";
+
+import Card2 from "../../components/Home/Card";
 
 
 function FilterGroup() {
@@ -115,7 +117,8 @@ function FilterGroup() {
 
                     </div>
                     <div className="col col-10  mt-5 mb-5">
-                        <ProductList />
+                   
+                  <ProductList2/>
 
                     </div>
                 </div>

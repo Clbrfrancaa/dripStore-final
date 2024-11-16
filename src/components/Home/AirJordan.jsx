@@ -1,6 +1,20 @@
 
 import "./Section.css";
+import ScrollReveal from "scrollreveal";
+import React, { useEffect } from "react";
 function AirJordan() {
+  useEffect(() => {
+ 
+    const sr = ScrollReveal({ reset: true });
+    sr.reveal(".gradiente", {
+      rotate: { x: 0, y: 80, z: 0 },
+      duration: 1000,
+    });
+    sr.reveal(".corDefundoComp4", {
+      rotate: { x: 0, y: 80, z: 0 },
+      duration: 2000,
+    });
+  }, []);
   return (
     <>
     <br /><br /><br /><br />
@@ -15,8 +29,7 @@ function AirJordan() {
               </p>
               <h1>queima de estoque nike</h1>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quo
-                voluptatum similique, assumenda architecto velit.
+              Não perca a chance de adquirir os sapatos Nike que você sempre quis com preços incríveis! Modelos esportivos, casuais e para performance agora com descontos arrasadores. Estoque limitado! Corra antes que acabe e eleve seu estilo ao próximo nível com a Nike
               </p>
               <button className="btn corBotaoRosa text-light"> ver ofertas</button>
             </div>

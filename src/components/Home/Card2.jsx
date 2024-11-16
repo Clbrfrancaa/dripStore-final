@@ -1,7 +1,7 @@
 import "./Section.css";
 import ScrollReveal from "scrollreveal";
 import React, { useEffect } from "react";
-function Card(props) {
+function Card2(props) {
     useEffect(() => {
   
         const sr = ScrollReveal({ reset: true });
@@ -13,7 +13,7 @@ function Card(props) {
    
     return (
         <>
-            <div className="row  col-3  d-flex flex-column ">
+            <div className="row  col-4  d-flex flex-column ">
                 <div className=" cardSapatoComp3 col-10">
 
                     <img src={props.image} alt="" width={'150px'} className="offset-2 rotation"/>
@@ -27,4 +27,4 @@ function Card(props) {
         </>
     )
 }
-export default Card
+export default Card2
