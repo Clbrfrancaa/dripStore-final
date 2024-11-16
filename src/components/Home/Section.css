@@ -27,6 +27,12 @@
 .fundoCard {
     background-color: #D7E3F1;
 }
+.fundoCard:hover{
+    transform: scale(1.1);
+    transition: 1s;
+   border: solid 1px #c92071;
+   cursor: pointer;
+}
 
 .desconto {
     background-color: #E7FF84;
@@ -37,6 +43,10 @@
 
 .corFonteBotaoComp1 {
     color: #C92071;
+}
+.corFonteBotaoComp1:hover{
+    background-color: #C92071;
+    color: white;
 }
 
 .gradiente {

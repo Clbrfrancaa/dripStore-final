@@ -19,7 +19,7 @@ function Collections() {
           </div>
         </div>
         <div className="col  fundoCard pt-5 pb-3  rounded-2">
-          <div className="row d-flex flex-row">
+          <div className="row   d-flex flex-row">
             <div className="col">
               <h6 className="  desconto fs-6">30%off</h6>
               <h3>novo drop supreme</h3>
