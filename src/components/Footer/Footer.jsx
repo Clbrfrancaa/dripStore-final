@@ -6,7 +6,7 @@ import styles from "./Footer.module.css"
 function Footer(props) {
     return (
         <>
-            <footer className={styles.footerGeral}>
+            <footer className={styles.footerGeral }>
                 <div className={styles.container} >
                     <div className={styles.lorem}>
                         <Logo color="#ffffff" />
