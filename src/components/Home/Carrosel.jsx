@@ -9,7 +9,7 @@ function Carrosel() {
       rotate: { x: 0, y: 80, z: 0 },
       duration: 2500,
     });
-  }, []);
+  }, []); 
   return (
     <>
       <div className="container-fluid corDeFundoBranco">
