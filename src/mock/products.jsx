@@ -1,42 +1,116 @@
 export default [
   {
     name: "Tênis Adidas Lite Racer 3 0 Masculino - Preto+Branco",
+    category:"tenis",
     price: 199.99,
     image: "Tênis Adidas Lite Racer 3 0 Masculino - Preto+Branco.png",
   },
   {
     name: "Tênis Adidas Ultimashow Masculino - Preto",
+    category:"tenis",
     price: 199.99,
     image: "Tênis Adidas Ultimashow Masculino - Preto.png",
   },
   {
     name: "Tênis Juvenil Adidas Tensaur Sport - Rosa Claro",
+    category:"tenis",
     price: 399.99,
     image: "Tênis Juvenil Adidas Tensaur Sport - Rosa Claro.png",
   },
   {
     name: "Tênis Nike Air Max Excee Masculino - Branco",
+    category:"tenis",
     price: 417.99,
     image: "Tênis Nike Air Max Excee Masculino - Branco.png",
   },
   {
     name: "Tênis Nike Air Max Excee Masculino - Preto",
+    category:"tenis",
     price: 377.99,
     image: "Tênis Nike Air Max Excee Masculino - Preto.png",
   },
   {
     name: "Tênis Nike Revolution 7 Masculino - Preto",
+    category:"tenis",
     price: 246.99,
     image: "Tênis Nike Revolution 7 Masculino - Preto.png",
   },
   {
     name: "Tênis Nike Revolution 7 Masculino - Preto+Vermelho",
+    category:"tenis",
     price: 237.99,
     image: "Tênis Nike Revolution 7 Masculino - Preto+Vermelho.png",
   },
   {
     name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
     price: 249.45,
     image: "Tênis Nike Revolution 7 Masculino.png",
-  }
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
+  {
+    name: "Tênis Nike Revolution 7 Masculino",
+    category:"tenis",
+    price: 249.45,
+    image: "Tênis Nike Revolution 7 Masculino.png",
+  },
 ];
