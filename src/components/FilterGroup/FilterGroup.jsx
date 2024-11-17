@@ -116,7 +116,7 @@ function FilterGroup() {
                         </article>
 
                     </div>
-                    <div className="col col-10  mt-5 mb-5">
+                    <div className="col col-10   mt-5 mb-5">
                    
                   <ProductList2/>
 

@@ -4,11 +4,12 @@ import products from "../../mock/products";
 function ProductList2() {
   return (
     <>
-      <div className="container-fluid mt-5 d-flex flex-row flex-wrap">
+      <div className="container-fluid mt-5 d-flex flex-column flex-md-row flex-wrap">
         {products.map(function (product, i) {
           return (
             <Card2
               key={i}
+              category={product.category}
               name={product.name}
               price={product.price}
               image={product.image}

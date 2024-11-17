@@ -3,6 +3,8 @@ import "./Section.css";
 import ScrollReveal from "scrollreveal";
 import React, { useEffect } from "react";
 function AirJordan() {
+ 
+ try {
   useEffect(() => {
  
     const sr = ScrollReveal({ reset: true });
@@ -20,10 +22,10 @@ function AirJordan() {
     <br /><br /><br /><br />
       <div className="container-fluid corDeFundoComp4 mt-5">
           <div className="row  d-flex flex-row">
-            <div className="col col-6 gradiente">
+            <div className="col d-none d-md-block col-6 gradiente">
               <img src="sapato4.png" alt="" width={"500px"} />
             </div>
-            <div className="col col-5 offset-1 align-self-center">
+            <div className="col col-12 col-md-4 offset-1 align-self-center">
               <p className="corFonteRosa">
                 <b>oferta especial</b>
               </p>
@@ -37,5 +39,10 @@ function AirJordan() {
       </div>
     </>
   );
+ } catch (error) {
+  <h1>deu ruim</h1>
+ }
+
+ 
 }
 export default AirJordan;
