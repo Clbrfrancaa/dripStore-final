@@ -9,7 +9,7 @@ function Card2(props) {
             <div className="row  col-10 col-md-4  d-flex flex-column ">
                 <div className=" cardSapatoComp3 col-10">
 
-                    <img src={props.image} alt="" width={'150px'} className="offset-2 rotation"/>
+                    <img src={props.image} alt="" width={'150px'} className="offset-2 "/>
                 </div>
                 <div className="col-10">
                     <p className='corFontePreço'>{props.category}</p>
