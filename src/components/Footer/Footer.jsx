@@ -12,8 +12,8 @@ function Footer() {
 
     return (
         <>
-            <footer className={styles.footerGeral}>
-                <div className={styles.container}>
+            <footer className={styles.footerGeral }>
+                <div className={styles.container} >
                     <div className={styles.lorem}>
                         <Logo color="#ffffff" />
 
