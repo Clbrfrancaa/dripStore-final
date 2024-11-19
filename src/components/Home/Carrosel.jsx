@@ -33,7 +33,7 @@ function Carrosel() {
                       </button>
                     </div>
                     <div className="col">
-                      <img src="image.png" alt="" className="d-block w-100" />
+                      <img src="image.png" alt="" className="d-block w-100  rotation mb-4" />
                     </div>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ function Carrosel() {
                       </button>
                     </div>
                     <div className="col">
-                      <img src="Tênis Adidas Ultimashow Masculino - Preto2.png" alt="" className="d-block w-100" />
+                      <img src="Tênis Adidas Ultimashow Masculino - Preto2.png" alt="" className="d-block w-100 rotation mb-4" />
                     </div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ function Carrosel() {
                       </button>
                     </div>
                     <div className="col">
-                      <img src="puma.png" alt="" className="d-block w-100" />
+                      <img src="puma.png" alt="" className="d-block w-100 rotation mb-4" />
                     </div>
                   </div>
                 </div>
