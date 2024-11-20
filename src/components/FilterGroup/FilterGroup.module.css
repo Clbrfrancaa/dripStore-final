@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    font-size: 15px;
+}
+
+
+
+.caixaFiltro {
+    background-color: #ffffff;
+    height: 1000px;
+
+    margin-left: 100px;
+   
+
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.listasFiltro {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #474747;
+    gap: 10px;
+
+}
+
+.tituloh1{
+    color: #474747;
+    font-size: 20px;
+}
+
+.tituloh3{
+    color: #474747;
+    font-size: 20px;
+}
+
+
+.teste {
+    background-color: red;
+    color: red;
+}
+
+.cardPosition {
+    margin-top: 0px;
+}

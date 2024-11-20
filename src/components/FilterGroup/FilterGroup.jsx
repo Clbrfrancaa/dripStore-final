@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from './FilterGroup.module.css'
 
 import ProductList2 from "../Home/ProductList2";
 
@@ -56,14 +57,14 @@ function FilterGroup() {
 
     return (
         <>
-            <div className="container-fluid">
+            <div className= "container-fluid">
                 <div className="row d-flex flex-row col-12">
                     <hr />
-                    <div className="col col-2 mt-5">
-                        <h1>Filtrar por</h1>
+                    <div className={`col col-2 mt-5 ${styles.caixaFiltro}`}>
+                        <h1 className={styles.tituloh1}>Filtrar por</h1>
                         <hr />
-                        <article>
-                            <h3>Marcas</h3>
+                        <article className= {styles.listasFiltro}>
+                            <h3 className={styles.tituloh3} >Marcas</h3>
                             <section className="marcas">
                                 <input type="checkbox" name="adidas" id="adidas" checked={marcado.adidas} onChange={Verificado} />
                                 <label htmlFor="adidas">{marcas[0].name}</label>
@@ -80,7 +81,7 @@ function FilterGroup() {
                                 <input type="checkbox" name="calenciaga" id="calenciaga" checked={marcado.calenciaga} onChange={Verificado} />
                                 <label htmlFor="calenciaga">{marcas[4].name}</label>
                             </section>
-                            <h3>Categorias</h3>
+                            <h3 className={styles.tituloh3} >Categorias</h3>
                             <section className="categoria">
                                 <input type="checkbox" name="esporte" id="esporte" checked={marcado.esporte} onChange={Verificado} />
                                 <label htmlFor="esporte">{categorias[0].nome}</label>
@@ -94,7 +95,7 @@ function FilterGroup() {
                                 <input type="checkbox" name="corrida" id="corrida" checked={marcado.corrida} onChange={Verificado} />
                                 <label htmlFor="corrida">{categorias[3].nome}</label>
                             </section>
-                            <h3>Gênero</h3>
+                            <h3 className={styles.tituloh3} >Gênero</h3>
                             <section className="genero">
                                 <input type="checkbox" name="masculino" id="masculino" checked={marcado.masculino} onChange={Verificado} />
                                 <label htmlFor="">{genero[0].valor}</label>
@@ -106,7 +107,7 @@ function FilterGroup() {
                                 <label htmlFor="">{genero[2].valor}</label>
                             </section>
                             <section className="condicao">
-                                <h3>Estado</h3>
+                                <h3 className={styles.tituloh3} >Estado</h3>
                                 <input type="radio" name="novo" id="novo" checked={marcado.novo} onChange={Verificado} />
                                 <label htmlFor="novo">{condicao[0].estado}</label>
                                 <br />
@@ -116,9 +117,9 @@ function FilterGroup() {
                         </article>
 
                     </div>
-                    <div className="col col-10   mt-5 mb-5">
+                    <div className={`col col-8   mt-5 mb-5 ${styles.cardPosition}`}>
                    
-                  <ProductList2/>
+                         <ProductList2/>
 
                     </div>
                 </div>
