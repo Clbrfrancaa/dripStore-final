@@ -117,7 +117,7 @@ function FilterGroup() {
                         </article>
 
                     </div>
-                    <div className={`col col-8   mt-5 mb-5 ${styles.cardPosition}`}>
+                    <div className={`col col-8  mt-5 mb-5 ${styles.cardPosition}`}>
                    
                          <ProductList2/>
 

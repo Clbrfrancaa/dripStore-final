@@ -4,7 +4,7 @@ import products from "../../mock/products";
 function ProductList2() {
   return (
     <>
-      <div className="container-fluid mt-5 d-flex flex-column flex-md-row flex-wrap">
+      <div className="container-fluid d-flex flex-column flex-md-row flex-wrap">
         {products.map(function (product, i) {
           return (
             <Card2
