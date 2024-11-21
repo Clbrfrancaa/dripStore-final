@@ -13,8 +13,8 @@ function Card2(props) {
                 </div>
                 <div className="col-10">
                     <p className='corFontePreço'>{props.category}</p>
-                    <p style={{fontSize:"12px"}}>{props.name}</p>
-                    <h5>{props.price}</h5>
+                    <p style={{fontSize:"18px"}}>{props.name}</p>
+                    <h5 className="estiloPreco">{props.price}</h5>
                 </div>
             </div>
         </>
