@@ -4,9 +4,9 @@ import Footer from "../../components/Footer/Footer";
 function MyOrders () {
     return (
         <>
-        <Header />
+            <Header />
 
-        <Footer />
+            <Footer />
         
         </>
     )

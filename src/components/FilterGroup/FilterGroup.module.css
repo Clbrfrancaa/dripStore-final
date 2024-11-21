@@ -11,7 +11,7 @@
     background-color: #ffffff;
     height: 800px;
 
-    margin-left: 50px;
+    margin-left: 100px;
    
 
     padding-top: 40px;
@@ -22,7 +22,7 @@
 .listasFiltro {
     display: flex;
     flex-direction: column;
-    text-align: start;
+    /* text-align: start; */
     color: #474747;
     gap: 10px;
 
@@ -41,14 +41,22 @@
 
 .filtroPosition{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #ffffff;
+
 }
 
-.teste {
+
+.filtroGeral{
+    padding: 0px;
+    
+}
+/* .teste {
     background-color: red;
     color: red;
-}
+} */
 
 .cardPosition {
     margin-top: 0px;
+    padding: 0px;
 }

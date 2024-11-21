@@ -57,9 +57,9 @@ function FilterGroup() {
 
     return (
         <>
-            <div className= "container-fluid">
+            <div className= {`container-fluid ${styles.filtroGeral}`}>
                 <div className= {`row d-flex flex-row col-12 ${styles.filtroPosition}`}>
-                    <hr />
+                    {/* <hr /> */}
                     <div className={`col col-2 mt-5 ${styles.caixaFiltro}`}>
                         <h1 className={styles.tituloh1}>Filtrar por</h1>
                         <hr />
