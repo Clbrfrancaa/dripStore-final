@@ -15,7 +15,7 @@ function Collections() {
                   </button>
                 </div>
                 <div className="col">
-                  <img src="camisa1.png" alt="" width={"150px"} />
+                  <img src="camisa1.png" alt="" width={"170px"} />
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@ function Collections() {
                   </button>
                 </div>
                 <div className="col">
-                  <img src="sapato2.png" alt="" width={"150px"} />
+                  <img src="sapato2.png" alt="" width={"170px"} />
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@ function Collections() {
                   </button>
                 </div>
                 <div className="col">
-                  <img src="fone.png" alt="" width={"150px"} />
+                  <img src="fone.png" alt="" width={"170px"} />
                 </div>
               </div>
             </div>
