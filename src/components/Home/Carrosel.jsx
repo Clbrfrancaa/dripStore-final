@@ -24,7 +24,7 @@ function Carrosel() {
                       <h6 className="text-warning text-justify">
                         Melhores ofertas personalizadas
                       </h6>
-                      <h1>Queima de Estoque Nike: Qualidade e Estilo com Descontos Imperdíveis!</h1>
+                      <h1 className="carrosselh1" >Queima de Estoque Nike: Qualidade e Estilo com Descontos Imperdíveis!</h1>
                       <p>
                       Não perca a chance de adquirir os sapatos Nike que você sempre quis com preços incríveis! Modelos esportivos, casuais e para performance agora com descontos arrasadores. Estoque limitado! Corra antes que acabe e eleve seu estilo ao próximo nível com a Nike
                       </p>
@@ -45,7 +45,7 @@ function Carrosel() {
                       <h6 className="text-warning">
                         Melhores ofertas personalizadas
                       </h6>
-                      <h1>Queima de Estoque Adidas: Estilo e Conforto com Descontos Arrasadores!</h1>
+                      <h1 className="carrosselh1">Queima de Estoque Adidas: Estilo e Conforto com Descontos Arrasadores!</h1>
                       <p>
                       Os sapatos Adidas que você sempre quis estão com preços imperdíveis! Modelos para todos os gostos e necessidades: esportivos, casuais e de alta performance. Aproveite a oportunidade para renovar seu guarda-roupa com a qualidade Adidas. Estoque limitado!
                       </p>
@@ -66,7 +66,7 @@ function Carrosel() {
                       <h6 className="text-warning">
                         Melhores ofertas personalizadas
                       </h6>
-                      <h1>Velocidade e Conforto: Queima de Estoque Puma!</h1>
+                      <h1 className="carrosselh1" >Velocidade e Conforto: Queima de Estoque Puma!</h1>
                       <p>
                       Chegou a hora de garantir os tênis Puma feitos para acompanhar sua performance! Perfeitos para corrida, academia e esportes, com tecnologia de ponta e design inovador. Aproveite descontos de até 50% em modelos selecionados. Estoque limitado. Corra antes que acabe!
                       </p>
