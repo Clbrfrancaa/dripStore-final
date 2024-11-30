@@ -8,9 +8,9 @@ function Card(props) {
 return (
     <>
         <div className="row  col-10 col-md-3  d-flex flex-column ">
-            <div className=" cardSapatoComp3 col-10">
+            <div className=" cardSapatoComp3 col-10 ">
 
-                <img src={props.image} alt="" width={'150px'} className="offset-2 rotation"/>
+                <img src={props.image} alt="" width={'150px'} className="offset-2 rotation "/>
             </div>
             <div className="col-10">
                 <p className='corFontePreço'>{props.category}</p>
